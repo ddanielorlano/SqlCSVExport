@@ -6,39 +6,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace SqlCSVExport
 {
    class SqlConnect
     {
         private string ConnectionString { get; set; }
-        private string Server { get; set; }
-        private string Database { get; set; }
+        private string DataSource { get; set; }
+        private string InitialCatalog { get; set; }
         private string UserId { get; set; }
         private string Password { get; set; }
         private string Table { get; set; }
 
-        SqlConnect(string server="nyphrmdb", string database="ultipro_cambridge", string userId="website", string password ="ws&1701&ut",string table=" ",string connectionString=" ")
+      
+       
+        SqlConnect(string connectionString,string table)
         {
-            if (!string.IsNullOrWhiteSpace(connectionString))
-            {
-                ConnectionString = connectionString;
-
-            }
-            else
-            {
-                Server = server;
-                Database = database;
-                UserId = userId;
-                Password = password;
-                Table = table;
-
-                ConnectionString = $"{Server}{Database}{UserId}{Password}";
-            }
-
+           ConnectionString = connectionString;
+            Table = table;
+           
             var connection = new SqlConnection(ConnectionString);
             Read(connection);
 
-        }
+       }
         private void Read(SqlConnection connection)
         {
             
@@ -58,6 +48,7 @@ namespace SqlCSVExport
                         Console.WriteLine("Records read..");
                         Console.WriteLine("Enter save path:");
                         var path = Console.ReadLine();
+                        var columns = Enumerable.Range(0,reader.FieldCount).Select(reader.GetName).ToList(();
                         using (StreamWriter writer = new StreamWriter(path))
                         {
                             while (reader.Read())
@@ -72,25 +63,26 @@ namespace SqlCSVExport
                     }
                     Console.WriteLine($"success files saved {DateTime.UtcNow - now}");
                 }
+                Console.ReadKey();
 
             }
         }
         static void Main(string[] args)
         {
-            string server, db, id, password, table,connectionString;
+            string dataSource, initialCatalog, id, password, table,connectionString;
 
             Console.WriteLine("Enter Server name: ");
-            server = Console.ReadLine();
+            dataSource = Console.ReadLine();
             Console.WriteLine("Enter Database name: ");
-            db = Console.ReadLine();
+            initialCatalog = Console.ReadLine();
             Console.WriteLine("Enter UserId: ");
             id = Console.ReadLine();
             Console.WriteLine("Enter Password: ");
             password = Console.ReadLine();
             Console.WriteLine("Enter Table name: ");
             table = Console.ReadLine();
-            connectionString = $"server,db,id,password,table";
-            var reader = new SqlConnect(connectionString);
+            connectionString = $"Data Source={dataSource};Initial Catalog={initialCatalog};user id={id};password={password}";
+            var reader = new SqlConnect(connectionString,table);
         }
     }
 }
