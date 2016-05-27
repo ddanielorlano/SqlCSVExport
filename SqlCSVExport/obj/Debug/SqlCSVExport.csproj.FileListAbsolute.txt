@@ -10,3 +10,4 @@ C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlCSVExport\bin\Debug\Dapper.pdb
 C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlCSVExport\bin\Debug\Dapper.xml
 C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlCSVExport\obj\Debug\SqlCSVExport.exe
 C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlCSVExport\obj\Debug\SqlCSVExport.pdb
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlCSVExport\obj\Debug\SqlCSVExport.csprojResolveAssemblyReference.cache
