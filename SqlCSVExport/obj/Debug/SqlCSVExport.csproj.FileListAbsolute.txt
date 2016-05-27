@@ -1,0 +1,2 @@
+C:\Users\Lenovo\Documents\GitHub\Cig App\SqlCSVExport\SqlCSVExport\bin\Debug\SqlCSVExport.exe.config
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlCSVExport\bin\Debug\SqlCSVExport.exe.config
