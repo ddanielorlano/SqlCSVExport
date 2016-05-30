@@ -1,0 +1,6 @@
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.Test.dll
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.Test.pdb
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.dll
+C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.pdb
