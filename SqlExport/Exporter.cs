@@ -74,7 +74,12 @@ namespace SqlExport
                         {
                             for (int i = 0; i < columns.Count(); i++)
                             {
+                                if(i<columns.Count()-1){
                                 sBuilder.Append($"{reader[columns[i]]},");
+                                }
+                                else{
+                                    sBuilder.Append($"{reader[columns[i]]}");
+                                }
                             }
                             sBuilder.AppendLine();
                             counter++;

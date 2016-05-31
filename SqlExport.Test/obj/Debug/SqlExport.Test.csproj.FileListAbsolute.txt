@@ -4,3 +4,10 @@ C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\Microsoft.Vis
 C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.csprojResolveAssemblyReference.cache
 C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.dll
 C:\Users\Lenovo\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.pdb
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.Test.dll
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.Test.pdb
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.exe
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\bin\Debug\SqlExport.pdb
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.dll
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.pdb
+C:\Users\dorlan\Source\Repos\SqlCSVExport\SqlExport.Test\obj\Debug\SqlExport.Test.csprojResolveAssemblyReference.cache

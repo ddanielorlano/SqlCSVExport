@@ -38,7 +38,7 @@ namespace SqlExport
             }
             else
             {
-                _exporter = new Exporter(server, db, table, login, password);
+                _exporter = new Exporter(server, db, login, password,table);
             }
             ReadFromDb();
 
